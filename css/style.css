@@ -1,4 +1,16 @@
+.body {
+  height: 6715px;
+  width: 375px;
+  left: -17px;
+  top: 10429px;
+  border-radius: 0;
+}
+
 .app-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
   position: absolute;
   width: 375px;
   height: 92px;
@@ -6,17 +18,20 @@
   top: 0;
 }
 
-.toolbar-container {
-  /* Container */
-  position: absolute;
-  visibility: hidden;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+.icons-icon-menu {
+  height: 24px;
+  width: 24px;
+  left: 8px;
+  top: 8px;
+  border-radius: 0;
+}
 
-  /* Overlay / Gradient ↓ */
-  background: linear-gradient(180deg, rgba(24, 30, 37, 0.64) 0%, rgba(24, 30, 37, 0.08) 84%, rgba(24, 30, 37, 0.02) 92%, rgba(24, 30, 37, 0) 100%);
+.union {
+  height: 12px;
+  width: 18px;
+  left: 3px;
+  top: 6px;
+  border-radius: 0;
 }
 
 .logo-placeholder {
@@ -44,10 +59,12 @@
   height: 726px;
   left: 0;
   top: 92px;
-}
 
-.body {
-  background: #fff;
+  /* ajust background-image */
+
+  background-image: url('/assets/header-illsutration-mobile@2x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .welcome {
@@ -55,61 +72,71 @@
   width: 90px;
   height: 28px;
 
-  /* Theme 2 / Subhead 1 */
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-
   /* identical to box height, or 140% */
   display: flex;
   align-items: center;
   text-align: center;
+}
 
-  /* Theme 2 / Neutral 1 */
-  color: #28352f;
+.social-media-icons {
+  width: 170.17px;
+  height: 20px;
 
   /* Inside auto layout */
+
   flex: none;
-  order: 0;
+  order: 2;
   flex-grow: 0;
 }
 
-.normal-button {
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
+.twitter-icon {
+  /* twitter */
+  height: 19.962478637695312px;
+  width: 19.985925674438477px;
+  left: 102.41666412353516px;
+  top: 536px;
+  border-radius: 0;
   position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 24px;
-  top: calc(50% - 40px / 2);
-  border-radius: 8px;
 }
 
-.icons-menu {
-  /* Icons/Icon - Menu */
-  width: 24px;
-  height: 24px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+.github-icon {
+  /* github */
+  height: 20px;
+  width: 17.985200881958008px;
+  left: 221.41665649414062px;
+  top: 536px;
+  border-radius: 0;
+  position: absolute;
 }
 
-.union-menu {
-  /* Union Menu */
-  width: 18px;
-  height: 12px;
-  left: 3px;
-  top: 6px;
+.linkedin-icon {
+  /* Linkedin icon */
+  height: 20.000062942504883px;
+  width: 20.00014877319336px;
+  left: 141.41666412353516px;
+  top: 536px;
+  border-radius: 0;
+  position: absolute;
+}
 
-  /* Theme 2 / Neutral 1 */
-  background: #28352f;
+.medium-icon {
+  /* medium */
+  height: 16px;
+  width: 20px;
+  left: 181.41665649414062px;
+  top: 538px;
+  border-radius: 0;
+  position: absolute;
+}
+
+.angellist-icon {
+  /* angellist */
+  height: 20px;
+  width: 14.166671752929688px;
+  left: 258.4166564941406px;
+  top: 536px;
+  border-radius: 0;
+  position: absolute;
 }
 
 .hello {
@@ -126,6 +153,10 @@
 
   /* or 130% */
   text-align: center;
+}
+
+span {
+  color: green;
 }
 
 .support-text {

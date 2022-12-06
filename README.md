@@ -23,9 +23,9 @@
 - [📝 License](#license)
 
 
-# 📖 [Portfolio-Setup-and-mobile-first] <a name="about-project"></a>
+# 📖 **Portfolio Jose RM. Full Stack Developer** (or so I try :D) <a name="about-project"></a>
 
-**[Portfolio-Setup-and-mobile-first]** This is the Jose Delphin Portfolio, that allows you understand what are my skills as a developer.
+**Portfolio Jose RM.** This is the Jose RM Portfolio, that allows you understand what are my skills as a developer.
 
 ## 🛠 Built With <a name="Visual Studio Code"></a>
 
@@ -78,9 +78,9 @@ You can deploy this project using visual studio code and Figma.
 
 👤 ** Jose RM **
 
-- GitHub: [@githubhandle](https://github.com/joramot/my-portfolio)
-- Twitter: [@twitterhandle](@elrulis)
-- LinkedIn: [LinkedIn](@adelphin)
+- GitHub: https://github.com/joramot
+- Twitter: https://twitter.com/el_rulis
+- LinkedIn: https://linkedin.com/in/jose-RM
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
