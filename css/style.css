@@ -19,7 +19,7 @@
 }
 
 span {
-  color: 36b37e;
+  color: #36b37e;
 }
 
 .icons-icon-menu {
@@ -153,7 +153,7 @@ li {
   height: 192px;
 
   /* Theme 2 / H2 */
-  font-family: 'Inter', sans-serif;;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -161,7 +161,6 @@ li {
 
   /* or 130% */
   text-align: center;
-
   color: #172b4d;
 
   /* Inside auto layout */
@@ -171,19 +170,14 @@ li {
   flex-grow: 0;
 }
 
-span {
-  color: #36b37e;
-}
-
 .support-text {
-
   /* Supporting Text */
 
   width: 327px;
   height: 164px;
 
   /* Theme 2 / Body Reguler 1 */
-  font-family: 'Inter', sans-serif;;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
