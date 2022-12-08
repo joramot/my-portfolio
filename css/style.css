@@ -1,0 +1,196 @@
+.body {
+  height: 6715px;
+  width: 375px;
+  left: -17px;
+  top: 10429px;
+  border-radius: 0;
+}
+
+.app-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  left: 0;
+  top: 0;
+}
+
+span {
+  color: #36b37e;
+}
+
+.icons-icon-menu {
+  height: 24px;
+  width: 24px;
+  left: 8px;
+  top: 8px;
+  border-radius: 0;
+}
+
+.union {
+  height: 12px;
+  width: 18px;
+  left: 3px;
+  top: 6px;
+  border-radius: 0;
+}
+
+.logo-placeholder {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: absolute;
+  width: 114px;
+  height: 48px;
+  left: 12px;
+  top: calc(50% - 48px / 2);
+}
+
+.headline {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 58px;
+  position: absolute;
+  width: 375px;
+  height: 726px;
+  left: 0;
+  top: 92px;
+
+  /* ajust background-image */
+
+  background-image: url('/assets/header-illsutration-mobile@2x.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.welcome {
+  /* Welcome */
+  width: 90px;
+  height: 28px;
+
+  /* identical to box height, or 140% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.social-media-icons {
+  width: 170.17px;
+  height: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.twitter-icon {
+  /* twitter */
+  height: 19.962478637695312px;
+  width: 19.985925674438477px;
+  left: 102.41666412353516px;
+  top: 536px;
+  border-radius: 0;
+  position: absolute;
+}
+
+.github-icon {
+  /* github */
+  height: 20px;
+  width: 17.985200881958008px;
+  left: 221.41665649414062px;
+  top: 536px;
+  border-radius: 0;
+  position: absolute;
+}
+
+.linkedin-icon {
+  /* Linkedin icon */
+  height: 20.000062942504883px;
+  width: 20.00014877319336px;
+  left: 141.41666412353516px;
+  top: 536px;
+  border-radius: 0;
+  position: absolute;
+}
+
+.medium-icon {
+  /* medium */
+  height: 16px;
+  width: 20px;
+  left: 181.41665649414062px;
+  top: 538px;
+  border-radius: 0;
+  position: absolute;
+}
+
+.angellist-icon {
+  /* angellist */
+  height: 20px;
+  width: 14.166671752929688px;
+  left: 258.4166564941406px;
+  top: 536px;
+  border-radius: 0;
+  position: absolute;
+}
+
+.hello {
+  /* Hello */
+  width: 327px;
+  height: 192px;
+
+  /* Theme 2 / H2 */
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* or 130% */
+  text-align: center;
+  color: #172b4d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.support-text {
+  /* Supporting Text */
+
+  width: 327px;
+  height: 164px;
+
+  /* Theme 2 / Body Reguler 1 */
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  /* or 140% */
+  text-align: center;
+
+  /* Neutrals/N800 */
+  color: #172b4d;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
