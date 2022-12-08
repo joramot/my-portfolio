@@ -9,13 +9,17 @@
 .app-bar {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-content: center;
+  justify-content: space-between;
+  align-items: center;
   position: absolute;
   width: 375px;
   height: 92px;
   left: 0;
   top: 0;
+}
+
+span {
+  color: 36b37e;
 }
 
 .icons-icon-menu {
@@ -64,7 +68,7 @@
 
   background-image: url('/assets/header-illsutration-mobile@2x.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .welcome {
@@ -87,6 +91,10 @@
   flex: none;
   order: 2;
   flex-grow: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 .twitter-icon {
@@ -145,7 +153,7 @@
   height: 192px;
 
   /* Theme 2 / H2 */
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -153,19 +161,29 @@
 
   /* or 130% */
   text-align: center;
+
+  color: #172b4d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 span {
-  color: green;
+  color: #36b37e;
 }
 
 .support-text {
+
   /* Supporting Text */
+
   width: 327px;
   height: 164px;
 
   /* Theme 2 / Body Reguler 1 */
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
