@@ -283,6 +283,10 @@ li {
   border: 1px solid #d0d9d4;
 }
 
+.card-work-row > div:hover {
+  transform: scale(1.05);
+}
+
 .tags-grid {
   display: grid;
   justify-content: space-between;
@@ -378,6 +382,11 @@ li {
   color: #fff;
 }
 
+.text-button:hover {
+  background-color: #3a4a42;
+  cursor: pointer;
+}
+
 .text-button-2 {
   align-self: center;
   margin: 6px;
@@ -391,6 +400,11 @@ li {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.text-button-2:hover {
+  background-color: #3a4a42;
+  cursor: pointer;
 }
 
 .image-placehoder {
