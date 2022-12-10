@@ -201,25 +201,19 @@ li {
   position: absolute;
   left: 24px;
   top: 706px;
-  border-radius: 0px;
 }
 
 .box-button {
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 40px;
   width: 40px;
   left: 144px;
-  top: 0;
   border-radius: 32px;
   padding: 8px;
   position: absolute;
-  left: calc(50% - 40px / 2 + 0.5px);
   border: 1px solid #dfe1e6;
-  border-radius: 32px;
 }
 
 .icon-button {
@@ -238,8 +232,6 @@ li {
   width: 379px;
   height: 3283px;
   top: 818px;
-  left: 0;
-  border-radius: 0px;
   padding: 64px 24px 64px 24px;
 }
 
@@ -253,17 +245,16 @@ li {
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0.01em;
   text-align: center;
   color: #172b4d;
 }
 
 .indicator {
-  align-self: center;
   top: 220px;
   left: 180px;
   align-self: center;
-  background: #36B37E;
+  background: #36b37e;
   border-radius: 24px;
   height: 4px;
   width: 48px;
@@ -283,13 +274,12 @@ li {
   top: 300px;
 }
 
-.card-work-row>div {
+.card-work-row > div {
   display: flex;
   flex-direction: column;
   align-content: center;
   height: 474px;
   width: 327px;
-  border-radius: 0;
   border: 1px solid #d0d9d4;
 }
 
@@ -298,15 +288,14 @@ li {
   justify-content: space-between;
 }
 
-.tags-grid>li {
+.tags-grid > li {
   grid-column: 4;
-
   margin: auto;
   padding: 2px;
   color: #36b37e;
   background: #ebf0ee;
   border-radius: 2px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
@@ -330,8 +319,6 @@ li {
   background-color: #d0d9d4;
   height: 237px;
   width: 327px;
-  left: 0;
-  top: 0;
   border-radius: 8px;
 }
 
@@ -344,19 +331,15 @@ li {
   position: absolute;
   width: 379px;
   height: 1625px;
-  left: 0px;
   top: 4100px;
-
 }
 
 .card-about-me-row {
-  
   height: 1106px;
   width: 327px;
   left: 24px;
   position: absolute;
   top: 500px;
-  padding: 1px;
   padding: 1px;
   gap: 24px;
 }
@@ -364,11 +347,7 @@ li {
 .card-about-me-row > div {
   height: 352px;
   width: 327px;
-  left: 0;
   top: 1px;
-  border-radius: 0;
-  width: 327px;
-  height: 352px;
 }
 
 .card-about-me {
@@ -396,8 +375,7 @@ li {
   line-height: 30px;
   letter-spacing: 0.05em;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
 }
 
 .text-button-2 {
@@ -406,7 +384,7 @@ li {
   padding: 8px;
   background-color: #36b37e;
   border-radius: 4px;
-  color: #ffffff;
+  color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -426,23 +404,20 @@ li {
 .title-tag {
   height: 96px;
   width: 327px;
-  left: 0px;
   top: 184px;
-  border-radius: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
   gap: 24px;
   position: absolute;
 }
 
 .about-me-text {
-  font-family: 'Inter' sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: 0.1em;
   text-align: center;
   color: #3a4a42;
 }
@@ -470,5 +445,4 @@ li {
 .icons-about-me {
   width: 80px;
   left: 124px;
-  
 }
