@@ -274,7 +274,7 @@ li {
   top: 300px;
 }
 
-.card-work-row>div {
+.card-work-row > div {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -286,10 +286,9 @@ li {
 .tags-grid {
   display: inline-grid;
   grid-template-columns: auto;
-  
 }
 
-.tags-grid>li {
+.tags-grid > li {
   margin: 2px;
   padding: 6px;
   color: #3a4a42;
@@ -345,7 +344,7 @@ li {
   gap: 24px;
 }
 
-.card-about-me-row>div {
+.card-about-me-row > div {
   height: 352px;
   width: 327px;
   top: 1px;
