@@ -283,10 +283,6 @@ li {
   border: 1px solid #d0d9d4;
 }
 
-.card-work-row > div:hover {
-  transform: scale(1.05);
-}
-
 .tags-grid {
   display: grid;
   justify-content: space-between;
