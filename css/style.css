@@ -274,7 +274,7 @@ li {
   top: 300px;
 }
 
-.card-work-row > div {
+.card-work-row>div {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -284,15 +284,15 @@ li {
 }
 
 .tags-grid {
-  display: grid;
-  justify-content: space-between;
+  display: inline-grid;
+  grid-template-columns: auto;
+  
 }
 
-.tags-grid > li {
-  grid-column: 4;
-  margin: auto;
-  padding: 2px;
-  color: #36b37e;
+.tags-grid>li {
+  margin: 2px;
+  padding: 6px;
+  color: #3a4a42;
   background: #ebf0ee;
   border-radius: 2px;
   font-family: 'Inter', sans-serif;
@@ -332,6 +332,7 @@ li {
   width: 379px;
   height: 1625px;
   top: 4100px;
+  background: url(/assets/illustration-about-me.svg) center left no-repeat, url(/assets/illustration-1-about-me.svg) top right no-repeat;
 }
 
 .card-about-me-row {
@@ -344,7 +345,7 @@ li {
   gap: 24px;
 }
 
-.card-about-me-row > div {
+.card-about-me-row>div {
   height: 352px;
   width: 327px;
   top: 1px;
